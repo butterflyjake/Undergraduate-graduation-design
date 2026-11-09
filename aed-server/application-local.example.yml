@@ -1,0 +1,9 @@
+# 复制为 application-local.yml 后填写；该本地文件已被 Git 忽略。
+# 从 aed-server 目录启动后端时自动加载。
+spring:
+  datasource:
+    username: root
+    password: "REPLACE_WITH_DATABASE_PASSWORD"
+jwt:
+  # 使用自行生成的随机密钥，HS256 至少需要 32 字节。
+  secret: "REPLACE_WITH_RANDOM_SECRET_AT_LEAST_32_BYTES"
